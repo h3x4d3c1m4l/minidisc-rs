@@ -1,0 +1,11 @@
+[package]
+name = "minidisc"
+version = "0.0.1"
+authors = ["Sander in 't Hout <sander@inthout.eu>"]
+edition = "2018"
+
+[dependencies]
+libusb = "0.3"
+des = "0.3"
+lazy_static = "1.3"
+debug_stub_derive = "0.3.0"

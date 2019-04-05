@@ -1,0 +1,9 @@
+[package]
+name = "minidisccli"
+version = "0.0.1"
+authors = ["Sander in 't Hout <sander@inthout.eu>"]
+edition = "2018"
+
+[dependencies]
+minidisc = { path = "../minidisc" }
+clap = "2.32"
